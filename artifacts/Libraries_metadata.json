@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value2",
+						"type": "uint256"
+					}
+				],
+				"name": "calculate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/Libraries.sol": "Libraries"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/Libraries.sol": {
+			"keccak256": "0xd3da4aec28fa6dda579688fc68cacf7a4e6c00e9637e061bca10b0b169172ae8",
+			"urls": [
+				"bzz-raw://e9c870b1771f416052d49ab1ddb3eea0160b640b94075cb69fa10f32292b392a",
+				"dweb:/ipfs/QmSsjatK24Ha9jZZb2JF8rCS3u6nfhmTss6DDajBA5bAVC"
+			]
+		},
+		"browser/Math.sol": {
+			"keccak256": "0xef7e2d89b72240eb23babcb0037c11c524d925cd568ed042d1f6e5dbc04bc4d0",
+			"urls": [
+				"bzz-raw://be396767d7adb34496367238ee339b9a9ecb2657adf93d9b1a807205a1d18997",
+				"dweb:/ipfs/QmUqoK6xMgcbTcQ32WbaxbXtwwj68udZmxrGbGzZ5YB69Z"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Decrement",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Increment",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "divide",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/FirstContract.sol": "Counter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/FirstContract.sol": {
+			"keccak256": "0x2dc607edde3f31121e42bf221151da00c6a1049d96f9d39e28ca9b5ad0571ea3",
+			"urls": [
+				"bzz-raw://0ccf8ddb7f46cb785a8f226005bb64a289f51192595cf5e1967ee5ac08d8eca9",
+				"dweb:/ipfs/Qmbv6WETSPjd8Xff2M4AQPvEwgAnp46biwEaMpmYeAAWmo"
+			]
+		},
+		"browser/Math.sol": {
+			"keccak256": "0xef7e2d89b72240eb23babcb0037c11c524d925cd568ed042d1f6e5dbc04bc4d0",
+			"urls": [
+				"bzz-raw://be396767d7adb34496367238ee339b9a9ecb2657adf93d9b1a807205a1d18997",
+				"dweb:/ipfs/QmUqoK6xMgcbTcQ32WbaxbXtwwj68udZmxrGbGzZ5YB69Z"
+			]
+		}
+	},
+	"version": 1
+}

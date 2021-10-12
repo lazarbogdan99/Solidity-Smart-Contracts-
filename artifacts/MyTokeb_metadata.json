@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/SimpleCrowdsale.sol": "MyTokeb"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/SimpleCrowdsale.sol": {
+			"keccak256": "0xfbf3f9fcb9c95cbad681723b8a6fcca92c3e04703fa6d43ca4dfeec939185c14",
+			"urls": [
+				"bzzr://13501d39c1de13376df0bd41a7b0a8224b681bda4c80d82c8e8bfe04fb8f4c66"
+			]
+		}
+	},
+	"version": 1
+}
